@@ -1,0 +1,41 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  box-sizing: border-box;
+} 
+#overlay {
+  position:fixed;
+  z-index: 1000;
+  margin: 5px;
+  background-color: #baf8a1;
+  border: 1px solid #525355;
+  opacity: 0.8;
+  height: fit-content;
+  max-width: 78%;
+  padding: 5px;
+  top: 0;
+  left: 50%;
+  margin-left: -39%;
+               }
+#map{
+  width: 100%;
+  height: 100%;
+}
+h1 {
+  font-family: Georgia, sans-serif;
+  color: #525355;
+  font-size: 40px;
+ 
+  font-weight: bold;
+  text-align: center;
+}
+h2 {
+  font-family: Georgia, sans-serif;
+  color: #525355;
+  font-size: 15px;
+  text-align: center;
+}
+             
